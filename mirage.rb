@@ -16,5 +16,5 @@ end
 
 post 'code-analysis' do
   payload = JSON.parse(request.body.read)
-  body "The quality of the code in #{payload['target_url']} is #{['not', 'quite', 'really'].sample} #{['good', 'bad', 'the best', 'awful']}"
+  body "The quality of the code in #{payload['target_url']} is #{['not', 'quite', 'really'].sample} #{['good', 'bad', 'the best', 'awful'].sample}"
 end
