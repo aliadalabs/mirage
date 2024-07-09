@@ -7,7 +7,7 @@ GEM
     nio4r (2.7.3)
     puma (6.4.2)
       nio4r (~> 2.0)
-    rack (3.1.0)
+    rack (3.1.6)
     rack-protection (4.0.0)
       base64 (>= 0.1.0)
       rack (>= 3.0.0, < 4)
@@ -20,7 +20,7 @@ GEM
       rack-protection (= 4.0.0)
       rack-session (>= 2.0.0, < 3)
       tilt (~> 2.0)
-    tilt (2.3.0)
+    tilt (2.4.0)
 
 PLATFORMS
   ruby
